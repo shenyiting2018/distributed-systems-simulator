@@ -1,4 +1,4 @@
-package resources;
+package com.yiting.distributed_systems_simulators.infrastructures.resources;
 
 public class Memory {
 	
