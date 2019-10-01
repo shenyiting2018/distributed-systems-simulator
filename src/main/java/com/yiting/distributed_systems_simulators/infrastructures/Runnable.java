@@ -12,7 +12,7 @@ public interface Runnable {
 	 * Return true if run command succeed
 	 * @return
 	 */
-	public boolean run();
+	public boolean start();
 	
 	/**
 	 * Return true if shut down successfully
@@ -21,4 +21,8 @@ public interface Runnable {
 	public boolean shutDown();
 	
 	public boolean restart();
+	
+	public boolean crash();
+	
+	public boolean getRuntime();
 }
